@@ -1,0 +1,102 @@
+.stk {
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 0 !important;
+}
+
+
+.for1:before {
+  background: #008aff;
+  top: 0;
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  display: block;
+  content: "";
+}
+.for1:after {
+  content: "";
+  position: absolute;
+  background: #2e6abf;
+  width: 3px;
+  height: 30px;
+}
+.for2 {
+  position: relative;
+  right: -14px;
+  bottom: 7px;
+}
+.for2:before {
+  background: #008aff;
+  right: 0;
+  position: absolute;
+  width: 3px;
+  height: 30px;
+  display: block;
+  content: "";
+  top: -30px;
+}
+.for2:after {
+  content: "";
+  position: absolute;
+  background: #008aff;
+  width: 30px;
+  height: 3px;
+  bottom: 0;
+  right: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #007bff !important;
+  color: white !important;
+  transition: 0.7s;
+}
+.hv {
+  transition: all 0.4s ease-in-out;
+}
+.hv:hover {
+  border: 2px solid #008aff;
+  border-radius: 15px;
+  box-shadow: 6px 7px 9px 0px rgb(177, 177, 177);
+  color: #008aff;
+  transform: scale(1.1);
+}
+.ak a:hover {
+  background-image: linear-gradient(
+    to right,
+    #4087fa 0%,
+    #0db9e9 50%,
+    #0062ff 100%
+  ) !important;
+  border-radius: 20px;
+  background-color: #005bea;
+  transition: all 0.5s ease-in-out !important;
+}
+.cm:hover {
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.achieve img {
+  transition: all 0.4s ease-in-out;
+}
+.achieve img:hover {
+  transform: scale(1.1);
+}
+.fs i {
+  border: 2px solid white;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.fs i:hover {
+  transform: rotate(360deg);
+  transition: all ease 0.7s;
+  background-color: white;
+  color: #007bff !important;
+}
+.il p:hover {
+  transform: scale(1.05);
+  transition: all 0.6s ease-in-out;
+}
